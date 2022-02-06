@@ -1,0 +1,28 @@
+name: Turing0808
+version: 1.0
+main: de.filios.spigot.plugin.helloworld.TuringPlugin
+
+commands:
+  elias:
+    description: Doamanten
+    usage: /elias
+
+  pban:
+    description: Permanenter Ban
+    permission: Turing0808.ban
+    usage: /pban
+
+
+  kick:
+    description: Kick eines Users mit spezifischer Messag
+    permission: Turing0808.kick
+    usage: /kick
+
+permissions:
+  Turing0808.kick:
+    description: Allows to Kick other users
+    default: op
+
+  Turing0808.ban:
+    description: Allows to Ban other users
+    default: op
