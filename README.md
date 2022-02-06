@@ -1,7 +1,6 @@
-# de.filios.spigot.plugin.helloworld
+# Spigot Hello World Plugin
 
-Here i Experimenting - creating Minecraft Server Plugins with bukkit & Spigot
-
+Here I am experimenting - creating Minecraft Server Plugins with bukkit & Spigot
 
 Currently using:
   - Listeners (Login & Join)
